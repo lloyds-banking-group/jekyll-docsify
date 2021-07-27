@@ -2,5 +2,5 @@
 This is a jekyll site
 
 Sub folder docsify sites:
-* [koi](koi/)
-* [birdhouse](birdhouse/)
+* [koi](koi/) - This has the `.nojekyll` file and so it renders.
+* [birdhouse](birdhouse/) - This does **not** have the `.nojekyll` file, so github doesn't no to ignore things beginning with [underscores](https://docsify.js.org/#/quickstart?id=writing-content).
